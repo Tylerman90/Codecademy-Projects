@@ -48,3 +48,15 @@ while (currentCard !== 'Spade') {
 }
 
 console.log('Found a Spade!');
+
+
+
+
+
+
+//DOM manipulation//
+//javascript//
+document.getElementsByClassName('skillset');
+
+//Jquery//
+$('.skillset');
