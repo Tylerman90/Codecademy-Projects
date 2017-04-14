@@ -60,3 +60,17 @@ document.getElementsByClassName('skillset');
 
 //Jquery//
 $('.skillset');
+
+
+
+
+
+
+
+function main() {
+  $('.projects').hide();
+  $('.projects-button').on('click', function() {
+    $(this).toggleClass('active');
+});
+}
+$(document).ready(main);
