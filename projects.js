@@ -58,7 +58,7 @@ console.log('Found a Spade!');
 //javascript//
 document.getElementsByClassName('skillset');
 
-//Jquery//
+//and Jquery//
 $('.skillset');
 
 
