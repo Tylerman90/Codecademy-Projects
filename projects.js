@@ -74,3 +74,13 @@ function main() {
 });
 }
 $(document).ready(main);
+
+
+
+
+
+
+
+
+
+// ruby practice // 
