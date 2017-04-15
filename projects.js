@@ -83,4 +83,4 @@ $(document).ready(main);
 
 
 
-// ruby practice // 
+// ruby practice - puts stands for print string and gice your string it's own line. Print prints the input as is.// 
