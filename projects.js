@@ -83,4 +83,22 @@ $(document).ready(main);
 
 
 
-// ruby practice - puts stands for print string and gice your string it's own line. Print prints the input as is.// 
+// ruby practice - puts stands for print string and gice your string it's own line. Print prints the input as is.//
+
+print "What's your first name?"
+first_name = gets.chomp
+puts "Your first name is #{first_name}"
+
+print "What's your last name?"
+last_name = gets.chomp
+puts "Your last name is #{last_name}"
+
+print "What city were you born in?"
+city = gets.chomp
+puts "You were born in #{city}"
+
+print "What state were your born in?"
+state = gets.chomp
+puts "You were born in #{state}"
+
+ 
