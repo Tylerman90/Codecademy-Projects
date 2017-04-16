@@ -87,18 +87,22 @@ $(document).ready(main);
 
 print "What's your first name?"
 first_name = gets.chomp
-puts "Your first name is #{first_name}"
+first_name2 = first_name.capitalize
+first_name.capitalize!
 
 print "What's your last name?"
 last_name = gets.chomp
-puts "Your last name is #{last_name}"
+last_name2 = first_name.capitalize
+last_name.capitalize!
 
 print "What city were you born in?"
 city = gets.chomp
-puts "You were born in #{city}"
+city2 = first_name.capitalize
+city.capitalize!
 
 print "What state were your born in?"
 state = gets.chomp
-puts "You were born in #{state}"
+state2 = first_name.capitalize
+state.upcase!
 
  
