@@ -78,7 +78,17 @@ $(document).ready(main);
 
 //Javascript game //
 
+// Check if the user is ready to play!
+confirm("Are you ready to play?");
 
+var age = prompt("What's your age?");
+
+if (age < 13) {
+    console.log("you are allowed to play, although I assume no responsiblity");
+}
+    else {
+    console.log("Go ahead and play!!!");
+}
 
 
 
