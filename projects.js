@@ -117,6 +117,15 @@ else {
 
 
 
+//javascript food prompt//
+function foodDemand (food) {
+    console.log("I want to eat" + " " + food);
+}
+
+foodDemand ("apples");
+
+
+
 
 
 
