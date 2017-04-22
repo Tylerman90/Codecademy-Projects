@@ -87,7 +87,7 @@ if (age < 13) {
     console.log("you are allowed to play, although I assume no responsiblity");
 }
     else {
-    console.log("Go ahead, play!!!");
+    console.log("Go ahead and playyyyyyy!!!");
 }
 
 
