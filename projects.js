@@ -1,4 +1,4 @@
-var bucketList = ['collect all snes', 'learn javascript', 'learn ruby'];
+var bucketList = ['collect snes', 'learn javascript', 'learn ruby'];
 
 bucketList.pop();
 console.log(bucketList);
