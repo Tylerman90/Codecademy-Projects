@@ -25,9 +25,9 @@ var friendPlaces = ['New York City', 'Boston', 'Dallas'];
 for (var i = 0; i < myPlaces.length; i++) {
   for (var j = 0; j < friendPlaces.length; j++) {
     if (myPlaces[i] === friendPlaces[j]) {
-    console.log('Match: ' + myPlaces[i]);     
+      console.log('Match: ' + myPlaces[i]);     
+    }
   }
-}
 }
 
 
@@ -71,7 +71,7 @@ function main() {
   $('.projects').hide();
   $('.projects-button').on('click', function() {
     $(this).toggleClass('active');
-});
+  });
 }
 $(document).ready(main);
 
@@ -79,15 +79,39 @@ $(document).ready(main);
 //Javascript game //
 
 // Check if the user is ready to play!
-confirm("Are you ready to play?!?");
+// Check if the user is ready to play!
+confirm("Are you ready to play?");
 
 var age = prompt("What's your age?");
 
 if (age < 13) {
-    console.log("you are allowed to play, although I assume no responsiblity");
+  console.log("you are allowed to play, although I assume no responsiblity");
 }
-    else {
-    console.log("Go ahead and play!!!");
+else {
+  console.log("Go ahead and play!!!");
+}
+
+console.log("You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'")
+
+console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'")
+
+var userAnswer = prompt("Do you want to race Bieber on stage?")
+
+if (userAnswer === "yes") {
+  console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
+}
+
+else {
+  console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'")
+}
+
+var feedback = prompt("please rate this game on a scale from 1 to 10");
+
+if (feedback > 8) {
+  console.log("Thank you! We should race at the next concert!");
+}
+else {
+  console.log("I'll keep practicing coding and racing");
 }
 
 
@@ -134,4 +158,4 @@ if (age < 13) {
 
 //the end//
 
- 
+
