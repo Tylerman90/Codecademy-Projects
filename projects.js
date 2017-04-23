@@ -121,8 +121,15 @@ else {
 function foodDemand (food) {
     console.log("I want to eat" + " " + food);
 }
-
 foodDemand ("apples");
+
+//orange cost//
+function orangeCost(cost){
+    var totalCost = cost * 5;
+    console.log(totalCost);
+}
+
+orangeCost(5);
 
 
 
