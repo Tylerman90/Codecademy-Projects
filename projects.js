@@ -146,6 +146,19 @@ timesTwo(7);
 console.log("Outside the function my_number is: ")
 console.log(my_number);
 
+// Sleep Fuction //
+
+var sleepCheck = function(numHours) {
+ if (numHours >= 8) {
+     return ("You're getting plenty of sleep! Maybe even too much!");
+}
+else {
+    return ("Get some more shut eye!");
+}
+};
+
+sleepCheck(4);
+
 
 
 
