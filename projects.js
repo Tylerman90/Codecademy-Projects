@@ -159,4 +159,6 @@ else {
 
 sleepCheck(4);
 
+var list = ["bro", "girl", "dude", "dudette"];
+
 
